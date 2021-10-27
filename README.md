@@ -12,28 +12,30 @@ Time spent: 10 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-    ![] (XSS Image.gif)
-  - [ ] Steps to recreate: 
+     <img src="https://github.com/MBarrie42/Week-7-WordPress-vs-Kali/blob/main/XSS%20Image.gif" width="800">
+  - [ ] Steps to recreate: Upload a post with the image url as a XSS exploit. This is where the Javascript is inserted.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. (Required) Vulnerability Name or ID
+    - [Link 1] https://sumofpwn.nl/advisory/2016/persistent_cross_site_scripting_vulnerability_in_wordpress_due_to_unsafe_processing_of_file_names.html
+### 2. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+     <img src="https://github.com/MBarrie42/Week-7-WordPress-vs-Kali/blob/main/ONMOUSEOVER.gif" width="800">
+  - [ ] Steps to recreate: Create a post with the OnMouseOver() XSS script
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 3. (Required) Vulnerability Name or ID
+    - [Link 1]
+### 3. (Required) User Enumeration
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:Enumeration
+    - Tested in version: 4.2  
+    - Fixed in version: 4.2.13
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    <img src="https://github.com/MBarrie42/Week-7-WordPress-vs-Kali/blob/main/User.gif" width="800">
+  - [ ] Steps to recreate: Login shows a user exists or not. This is a security issue
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1]
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
@@ -42,7 +44,7 @@ Time spent: 10 hours spent in total
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1]
 ### 5. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
