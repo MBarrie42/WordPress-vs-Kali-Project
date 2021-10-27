@@ -36,13 +36,14 @@ Time spent: 10 hours spent in total
   - [ ] Steps to recreate: Login shows a user exists or not. This is a security issue
   - [ ] Affected source code:
     - [Link 1]
-### 4. (Optional) Vulnerability Name or ID
+### 4. (Optional) IFrame Script
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
+    - Vulnerability types: 4.2 
+    - Tested in version: 4.2.13
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+     <img src="https://github.com/MBarrie42/Week-7-WordPress-vs-Kali/blob/main/Iframe.gif" width="800">
+  - [ ] Steps to recreate: Create a new post with a IFrame XSS Script. This promts an alert
   - [ ] Affected source code:
     - [Link 1]
 ### 5. (Optional) Vulnerability Name or ID
